@@ -4,9 +4,8 @@ import { useState } from 'react';
 import { useMutation ,useQueryClient} from '@tanstack/react-query';
 import toast, { LoaderIcon ,} from 'react-hot-toast';
 import { completeOnboarding } from '../lib/api';
-import ShuffleIcon from 'lucide-react/dist/esm/icons/Shuffle';
 import { LANGUAGES } from '../constants';
-import { Speech ,MapPinIcon,CameraIcon} from 'lucide-react';
+import { Speech ,MapPinIcon,CameraIcon,ShuffleIcon} from 'lucide-react';
 
 
 
